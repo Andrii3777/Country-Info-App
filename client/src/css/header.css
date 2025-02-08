@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.21);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-link {
+  text-decoration: none;
+}
+
+.header h1 {
+  color: white;
+  font-size: 1.8em;
+  margin: 0;
+  cursor: pointer;
+}
+
+.header h1:hover {
+  color: #e0f7fa;
+}
